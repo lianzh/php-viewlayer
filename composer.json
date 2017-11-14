@@ -1,0 +1,25 @@
+{
+  "name": "lianzh/php-viewlayer",
+  "type" : "library",
+  "description": "Render PHP viewlayer scripts into a PSR-7 Response object.",
+  "keywords": ["view","template","php","phtml","renderer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "toohamster",
+      "email": "449211678@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "psr/http-message": "^1.0"
+  },
+    "autoload": {
+        "psr-4": {
+            "LianzhView\\": "src"
+        }
+    },
+  "require-dev": {
+    
+  }
+}
